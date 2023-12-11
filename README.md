@@ -3,7 +3,7 @@ Täältä löydät miniprojektini Tero Karvisen vetämälle Palvelinten hallinta
 
 Käytän projektissa Vagrantia sekä herra-orja -arkkitehtuuria (herra-kone ja kaksi orjakonetta), jonka loin aiemmin kurssitehtävssä '[h2 karjaa, kohta d)](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/blob/main/h2-karjaa.md').
 
-Miniprojektin ideana olisi asentaa komentorivipelejä herralta orjakoneille käyttäen Saltia. Kun orjakoneilla pelataan peliä, niin tulostiedot ns. leaderboardit siirtyvät herra-koneelle cronin tietyn väliajoin. Näin herra-koneelta pystyisi seuraamaaan tuloksia ja ennätyksiä "etänä". Katsotaan päästäänkö sinne asti!
+Miniprojektin ideana olisi asentaa komentorivipelejä herralta orjakoneille käyttäen Saltia. Kun orjakoneilla pelataan peliä, niin tulostiedot ns. leaderboardit siirtyvät herra-koneelle cronin avulla tietyn väliajoin. Näin herra-koneelta pystyisi seuraamaaan tuloksia ja ennätyksiä "etänä". Katsotaan päästäänkö sinne asti!
 
 Työkoneena toimii HP:n Elitebook 830 G5 (speksit: Windows 11 Pro versio 10.0.22631, Intel Core i5-8350U, 16GB RAM, 256GB SSD, Vagrant versio 2.4.0, VirtualBox versio 7.0.12). Kaikki kuvankaappaukset ovat minun ottamia, ellen toisin mainitse. Tein kaikki pakolliset tehtävät sekä muutaman vapaaehtoisen tehtävän.  Tervetuloa mukaan!
 
@@ -17,7 +17,7 @@ Virtuaalikoneiden herättyä, otetaan SSH-yhteys tmasteriin (herrakoneseen) kome
 
 ![ssh-tmaster](https://github.com/ThomasHelminen/Palvelinten-hallinta-miniprojekti/assets/148875548/d8ea24d4-f1fd-4ff6-8567-219505deacc8)
 
-Siirrytään nyt herrakoneella /srv/salt/ -hakemistoon komennolla ``$ cd /srv/salt/`` ja luodaan tänne uusi hakemisto komennolla ``$ sudo mkdir pelit``. Siirrytänä pelihakemistoon komennolla ``$ cd pelit/``. Lopuksi voimme vielä ajaa komennon ``$ pwd`` joka tulostaa nykyisen työhahekemiston polun.
+Siirrytään nyt herrakoneella /srv/salt/ -hakemistoon komennolla ``$ cd /srv/salt/`` ja luodaan tänne uusi hakemisto komennolla ``$ sudo mkdir pelit``. Siirrytään pelihakemistoon komennolla ``$ cd pelit/``. Lopuksi voimme vielä ajaa komennon ``$ pwd`` joka tulostaa nykyisen työhahekemiston polun.
 
 ## !EDIT! Neljän työtunnin jälkeen tilanne näyttää toivottomalta. Aika loppuu kesken ja omat työt alkavat. Tämä miniprojekti jää kesken ainakin täksi päiväksi.
 
