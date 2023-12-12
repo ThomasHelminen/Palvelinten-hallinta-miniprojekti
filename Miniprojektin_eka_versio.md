@@ -1,4 +1,6 @@
-# Palvelinten-hallinta-miniprojekti
+# Lue tämä ensin! Tämä on vajanainen raportti miniprojektini ensimmäisestä yrityksestä. Olen muokannut uutta, viimeistä versiota hieman yksinkertaisemmaksi kuin tämä. Kokonaan alusta aloitetun, uuden miniprojektini löydät [tästä]. Tämän tiedoston nimi oli aiemmin README.md, mutta muutan sen, jotta uusi, valmis miniprojektini saa kyseisen nimen käyttöönsä. Kiitos!
+
+## Palvelinten-hallinta-miniprojekti
 Täältä löydät miniprojektini Tero Karvisen vetämälle Palvelinten hallinta -kurssille, tervetuloa! Kyseessä on tehtävä 'h7', ja kurssi löytyy [täältä](https://terokarvinen.com/2023/configuration-management-2023-autumn/). Yritän käyttää tämän miniprojektin teossa pääsääntöisesti kurssilta oppimiani asioita. Aiemmat kurssitehtävät löydät minun '[Palvelinten-hallinta -kurssi](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi)' repositorysta!
 
 Käytän projektissa Vagrantia sekä herra-orja -arkkitehtuuria (herra-kone ja kaksi orjakonetta), jonka loin aiemmin kurssitehtävssä '[h2 karjaa, kohta d)](https://github.com/ThomasHelminen/Palvelinten-hallinta--kurssi/blob/main/h2-karjaa.md').
